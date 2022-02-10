@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(56, 56, 55);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+}
+
+#formDiv {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    float: left;
+    height: 85vh;
+    width: 100vw;
+    background-color: rgb(91, 91, 90)
+}
+
+#loginBox {
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: fixed;
+    height: 190px;
+    width: 450px;
+}
+
+label {
+    color: rgb(34, 34, 33);
+    margin: 4px;
+    width: 200px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+input {
+    height: 25px;
+    width: 225px;
+    border-radius: 2px;
+    border-width: 1px;
+    outline: none;
+    border-style: groove;
+    border-color: rgb(56, 56, 55);
+    box-shadow: -1px -1px 1px rgb(56, 56, 55);
+    font-size: 1rem;
+    color: rgb(34, 34, 33);
+}
+
+#customBt {
+    margin-top: 5px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgb(56, 56, 55);
+    border-color: rgb(56, 56, 55);
+    color: antiquewhite;
+    height: 35px;
+    width: 70px;
+    box-shadow: -1px -1px 1px rgb(56, 56, 55);
+}
+
+h1 {
+    margin: 0;
+    padding: 15px;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+#customBt:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+#customBt:active {
+    border-width: 5px;
+    box-shadow: none;
+}
+
+#cb {
+    margin-top: 15px;
+    float: left;
+    height: 15px;
+    width: 150px;
+    margin-left: 5px;
+    color: rgb(34, 34, 33);
+}
+
+#customCb {
+    height: 15px;
+    width: 15px !important;
+}
+
+#footer {
+    float: right;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(56, 56, 55);
+    color: antiquewhite;
+}

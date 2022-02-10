@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/form.js"></script>
+    <link rel="stylesheet" href="./css/form.css">
+    <title>HCKME: SignUp</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logoText">
+                <h1>HCKME</h1>
+            </div>
+        </div>
+        <div id="formDiv">
+            <div id="loginBox">
+                <form method="post" action="./usrData/jason.php">
+                    <label for="">Username: </label>
+                    <input type="text" name="username" placeholder="Username">
+                    <br><label for="">Email: </label>
+                    <input type="text" name="email" placeholder="Email">
+                    <br><label for="">Password: </label>
+                    <input type="text" name="password" placeholder="Password">
+                    <br><label for="">Confirm Password: </label>
+                    <input type="text" name="cPassword" placeholder="Re-enter password">
+                    <br><span id="cb"><input id="customCb" type="checkbox" name="" id="">I Agree to Terms</span>
+                    <input id="customBt" name="submit" type="submit" value="SignUp" onclick="on_submit()">
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            <span><center><p>&#9400; HCKME //Your inputted data will be in public domain</p></center></span>
+        </div>
+    </div>
+</body>
+
+</html>
